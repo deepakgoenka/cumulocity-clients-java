@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-source ${BASH_SOURCE%/*}/common.sh
+source ${BASH_SOURCE%/*}/../../common/scripts/common.sh
 
 repository_url=https://${BITBUCKET_USER}:${BITBUCKET_PASSWORD}@bitbucket.org/m2m
 repository_clients_java=$repository_url/cumulocity-clients-java
